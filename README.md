@@ -19,7 +19,7 @@ npm start
 ```
 ## Gitpod
 
-- Click on this button [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/lcenchew/vscode-container-ts)
+- Click on this button [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/lcenchew/dev-container-ts)
 - Sign in with yout Github account to start
 
 Container conposition
