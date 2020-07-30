@@ -12,10 +12,9 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
     "vivaxy.vscode-conventional-commits",
-		"dbaeumer.vscode-eslint",
-		"ms-vscode.vscode-typescript-tslint-plugin",
-		"ms-azuretools.vscode-docker",
-		"eamodio.gitlens",
+    "dbaeumer.vscode-eslint",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "eamodio.gitlens",
     "esbenp.prettier-vscode"
 	],
 
