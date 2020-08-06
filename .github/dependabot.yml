@@ -6,7 +6,7 @@ updates:
     schedule:
       interval: "weekly"
     commit-message:
-      prefix: "ci(github-actions):"
+      prefix: "ci(gh-actions):"
 
   # Enable version updates for npm
   - package-ecosystem: "npm"
