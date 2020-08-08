@@ -1,5 +1,13 @@
 name: update-version
-on: [push, pull_request]
+on: 
+  push:
+    paths:
+      - .gitpod.**
+      - .devcontainer/** 
+  pull_request:
+    paths: 
+      - .gitpod.**
+      - .devcontainer/** 
 
 jobs:
   update-version:
