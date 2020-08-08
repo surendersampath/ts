@@ -4,7 +4,7 @@ on: [push, pull_request]
 jobs:
   update-version:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/auto-roll-node-package-version'
+    if: github.ref == 'refs/heads/test-auto-roll'
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
