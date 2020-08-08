@@ -15,6 +15,6 @@ jobs:
         run: |
           git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
           git config user.name "$GITHUB_ACTOR"
-        run: |
+      - run: |
           npm version patch -m "ci: Patch to %s"
           git push
