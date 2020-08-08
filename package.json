@@ -1,6 +1,6 @@
 {
   "name": "dev-container-ts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A setup for working on typescript/javascript in a container with VS Code or Gitpod",
   "main": "app.js",
   "scripts": {
