@@ -19,5 +19,8 @@
   "homepage": "https://github.com/lcenchew/dev-container-ts#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }

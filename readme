@@ -1,0 +1,23 @@
+# PCB Design Project
+
+This project involves the design and implementation of a Printed Circuit Board (PCB). 
+
+## Project Description
+
+This project aims to design a PCB for a specific application. The design process involves schematic capture, PCB layout and routing, and finally, fabrication and assembly.
+
+## Installation 
+
+To view and modify the PCB design files, you will need to install a PCB design software. We recommend using [KiCad](https://kicad-pcb.org/), an open-source electronics design automation suite.
+
+## Usage/Examples
+
+Open the `.sch` file in the KiCad's Eeschema to view the schematic. The `.kicad_pcb` file can be opened in Pcbnew to view the PCB layout.
+
+## Contributing
+
+Contributions are always welcome! Please read the contributing guidelines first.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)

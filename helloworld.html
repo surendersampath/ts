@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PCB Simulation</title>
+    <style>
+        .pcb {
+            width: 300px;
+            height: 200px;
+            background-color: #333;
+            margin: 0 auto;
+            border-radius: 20px;
+            position: relative;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .led {
+            width: 30px;
+            height: 30px;
+            background-color: #111;
+            border: 5px solid #333;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: background 500ms;
+        }
+        .button {
+            width: 50px;
+            height: 30px;
+            background-color: #555;
+            border: none;
+            border-radius: 5px;
+            position: absolute;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #777;
+        }
+        .button:active {
+            background-color: #999;
+        }
+        .button1 {
+            top: 10px;
+            right: 10px;
+        }
+        .button2 {
+            bottom: 10px;
+            right: 10px;
+        }
+        .red {
+            background-color: red;
+        }
+        .green {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="pcb">
+        <div class="led red"></div>
+        <button class="button button1">Button 1</button>
+        <button class="button button2">Button 2</button>
+    </div>
+    <script>
+        var led = document.querySelector('.led');
+        var button1 = document.querySelector('.button1');
+        var button2 = document.querySelector('.button2');
+
+        button1.addEventListener('click', function() {
+            led.classList.remove('green');
+            led.classList.add('red');
+        });
+
+        button2.addEventListener('click', function() {
+            led.classList.remove('red');
+            led.classList.add('green');
+        });
+    </script>
+</body>
+</html>
